@@ -2,7 +2,7 @@
 inp = input()
 data = []
 no_match = True
-while inp != 'end':
+while inp.lower() != 'end':
     data.append(inp.split()[-1])
     inp = input()
 for i in range(len(data)):
