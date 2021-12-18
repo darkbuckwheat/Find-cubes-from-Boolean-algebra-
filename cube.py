@@ -1,3 +1,4 @@
+# Read a ReadMe-file
 inp = input()
 data = []
 no_match = True
